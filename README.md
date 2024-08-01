@@ -3,8 +3,11 @@
 ## Unity 3D Demo Project
 This demo project showcases a 3D environment with a controllable character and interactive elements. The project demonstrates character movement, navigation, and camera control using Unity's NavMesh and Cinemachine.
 
-[Webgl Demo here](https://room3d-demo.web.app/)
-`It might take some time to load `
+Before checking out the 
+[Webgl Demo here](https://room3d-demo.web.app/), kindly read the character controls.
+
+`Demo might take some time to load as I am using firebase static hosting to run demo online`
+
 
 ### Key Features
 #### 3D Environment and Character
