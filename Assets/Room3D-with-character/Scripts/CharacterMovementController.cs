@@ -4,15 +4,15 @@ using UnityEngine.AI;
 public class CharacterMovementController : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float rotationSpeed = 100f; 
-    public float gravity = 9.81f; 
-    public Animator animator; 
-    public Transform destination; 
+    public float rotationSpeed = 100f;
+    public float gravity = 9.81f;
+    public Animator animator;
+    public Transform destination;
 
     private CharacterController characterController;
     private NavMeshAgent navMeshAgent;
-    private float verticalVelocity = 0f; 
-    public bool isAutoMoving = false; 
+    private float verticalVelocity = 0f;
+    public bool isAutoMoving = false;
 
     private float _targetRotation = 0.0f;
     private float _rotationVelocity;
@@ -128,11 +128,12 @@ public class CharacterMovementController : MonoBehaviour
             }
 
 
-            HandleAnimation(moveVertical);
         }
+        HandleAnimation(moveVertical);
     }
 
-    void HandleAnimation(float moveVertical) { 
+    void HandleAnimation(float moveVertical)
+    {
 
         //Handling animation for forward or backward
         if (animator != null)
